@@ -1,0 +1,96 @@
+nav{
+background-color: black;
+height: 100px;
+width: 100%;
+}
+#nav1{
+    color: white;
+    text-align: center;
+}
+#navp{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: silver;
+}
+button{
+    background-color: aqua;
+}
+div{
+    height: 300px;
+    width: 250px;
+}
+#card{
+    background-color: white;
+    border: 2px solid blue;
+    position: relative;
+   }
+
+#card1{
+    background-color: white;
+    border: 2px solid green;
+     position: relative;
+     top: -270px;
+     left: 400px;
+   }
+#card2{
+    background-color: white;
+    border: 2px solid rgb(222, 8, 215);
+     position: relative;
+     top: -600px;
+     left: 820px;
+   }
+   #card3{
+    background-color: white;
+    border: 2px solid rgb(0, 161, 241);
+     position: relative;
+      top: -870px;
+     left: 1200px;
+   }
+   #card4{
+    background-color: white;
+    border: 2px solid rgb(217, 255, 0);
+     position: relative;
+     top: -800px;
+     left: 600px;
+     border-radius: 10%;
+   }
+   #child{
+height: 50%;
+width: 100%;
+background-color: aqua;
+position: absolute;
+border-radius: 10%;
+}
+#child2{
+height: 40%;
+width: 50%;
+background-color: blanchedalmond;
+position: absolute;
+border-radius: 50%;
+top: 90px;
+left: 60px;
+}
+img{
+height:100%;
+width: 100%;
+border-radius: 50%;
+
+}
+#toko{
+position: absolute;
+top: 250px;
+left: 50px;
+
+
+
+}
+#product-description{
+    color: black;
+    position: absolute;
+    top: 190px;
+    left: 10px;
+
+
+}
