@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+
+#father {
+    border: 2px solid black;
+    position: relative;
+
+}
+
+#child {
+    height: 1200px;
+    width: 30%;
+    background-color: burlywood;
+    padding: 30px;
+    position: absolute;
+
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+#child2 {
+    position: absolute;
+    left: 550px;
+
+
+
+
+}
+
+#name {
+    font-size: 50px;
+}
+
+#sn {
+    font-size: 80px;
+}
+
+#role {
+    font-size: 30px;
+}
+
+#ahh {
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+#line {
+    height: 2px;
+    width: 1000px;
+    background-color: black;
+    position: absolute;
+    top: 276px;
+    left: 180px;
+}
+
+#ti {
+    letter-spacing: 3px;
+}
+
+#tie {
+    font-size: 20px;
+}
+
+#date {
+    position: absolute;
+    left: 400px;
+    width: 100%;
+    top: 352px;
+}

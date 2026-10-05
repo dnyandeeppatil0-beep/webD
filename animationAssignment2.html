@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(orange,white,green);
+        }
+        #box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 20px;
+            
+        }
+        #ball1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background:linear-gradient(orange,red);
+            border: 4px solid black;
+            
+        }
+        #ball2 {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background:linear-gradient(darkblue,white);
+
+            border: 4px solid black;
+            
+        }
+        #ball3 {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background:linear-gradient(pink,white,green);
+            border: 4px solid black;
+            
+        }
+        #slide{
+            height: 10px;
+            width: 500px;
+            background-color: white;
+            margin: 0 auto;
+            border: 4px solid white;
+            position: relative;
+            top: -300px;
+        }
+        #box:hover #ball1 {
+            animation-name: ball1;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            
+        }
+        #box:hover #ball2 {
+            animation-name: ball2;
+            animation-duration: 0.5s;
+            animation-delay: 0.2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            
+        }
+        #box:hover #ball3 {
+            animation-name: ball3;
+            animation-duration: 0.5s;
+             animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            
+        }
+        #slide:hover {
+            animation-name: slide;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            
+        }
+
+        @keyframes ball1 {
+            0% {
+                transform: translateY(0px);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-30px) scale(150%)
+            }
+            
+        }
+        @keyframes slide {
+            0% {
+                background-color: white;
+            }
+            100% {
+                background-color: red;
+            }
+            
+        }
+
+        @keyframes ball2 {
+            0% {
+                transform: translateY(0px);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-30px) scale(150%)
+            }
+            
+        }
+
+        @keyframes ball3 {
+            0% {
+                transform: translateY(0px);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-30px) scale(150%)
+            }
+            
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="ball1"></div>
+    <div id="ball2"></div>
+    <div id="ball3"></div>
+      
+    </div>
+    <div id="slide"></div>
+  
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one {
+            height: 500px;
+            width: 500px;
+            background-color: red;
+          
+        }
+
+        #one:hover {
+            animation-name: anime;
+            animation-duration: 6s;
+            animation-iteration-count: 2;
+            
+        }
+
+        @keyframes anime {
+            0% {
+                background-color: green;
+            }
+            25%{
+                background-color: aquamarine;
+                height: 500px;
+            
+            }
+
+            50% {
+                background-color: black;
+                height: 1000px;
+                width: 1300px;
+            }
+
+            100% {
+                background-color: aqua;
+                height: 100vh;
+                width: 100vw;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one"></div>
+</body>
+
+</html>

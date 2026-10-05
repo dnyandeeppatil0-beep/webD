@@ -1,0 +1,100 @@
+body{
+background-color: #000000;
+}
+nav{
+    background-color: #02f6d1;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+p{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+h3{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    font-size: 40px;
+}
+#one{
+    height: 520px;
+    background-color: white;
+    width: 400px;
+    position: relative;
+    left: 500px;
+    border-radius: 3%;
+    overflow: hidden;
+    
+}
+h2{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+#card{
+    display: block;
+}
+#card2{
+    display: block;
+}
+#card3{
+    display: block ;
+}
+#card4{
+    display: block;
+}
+#card5{
+    display: block;
+}
+button{
+    background-color: violet;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 30px;
+
+}
+#two{
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: 520px;
+   border-radius: 10%;
+   height: 25px;
+   width: 70px;
+   text-align: center;
+   color: azure;
+}
+#three{
+    display: inline-block;
+    position: absolute;
+    top: 122px;
+    left: 850px;
+    height: 25px;
+   width: 70px;
+   font-size: 40px;
+}
+#four{
+background-color: #0d0e0d;
+display: inline-block;
+position: absolute;
+top: 320px;
+    left: 520px;
+    color: aliceblue;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+
+}
+#stick{
+
+color: white;
+
+
+}
